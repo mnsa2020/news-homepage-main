@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-white mb-5">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/logo.svg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <img src="./assets/images/logo.svg" alt="" />
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">New</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Popular</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trending</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Categories</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Header -->
+
+    <!-- Main -->
+    <main class="py-5">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-sm-12 col-lg-8">
+            <img
+              class="w-100"
+              src="./assets/images/image-web-3-desktop.jpg"
+              alt=""
+            />
+            <div
+              class="intro d-flex flex-column flex-lg-row align-items-center justify-content-between mt-3"
+            >
+              <h1 class="">The Bright Future of Web 3.0?</h1>
+              <div class="text">
+                <p>
+                  We dive into the next evolution of the web that claims to put
+                  the power of the platforms back into the hands of the people.
+                  But is it really fulfilling its promise?
+                </p>
+                <a href="" class="btn">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 text-light">
+            <aside>
+              <h2>New</h2>
+              <h3>Hydrogen VS Electric Cars</h3>
+              <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+              <hr />
+              <h3>The Downsides of AI Artistry</h3>
+              <p>
+                What are the possible adverse effects of on-demand AI image
+                generation?
+              </p>
+              <hr />
+              <h3>Is VC Funding Drying Up?</h3>
+              <p>
+                Private funding by VC firms is down 50% YOY. We take a look at
+                what that means.
+              </p>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Main -->
+
+    <!-- Feature -->
+    <section id="features" class="py-4">
+      <div class="container">
+        <div class="row row-gap-4">
+          <div class="box col-sm-12 col-lg-4 d-flex">
+            <img
+              class="me-4"
+              src="./assets/images/image-retro-pcs.jpg"
+              alt=""
+            />
+            <div>
+              <h3 class="">01</h3>
+              <h4 class="">Reviving Retro PCs</h4>
+              <p>What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </div>
+          <div class="box col-sm-12 col-lg-4 d-flex">
+            <img
+              class="me-4"
+              src="./assets/images/image-top-laptops.jpg"
+              alt=""
+            />
+            <div>
+              <h3 class="">02</h3>
+              <h4 class="">Top 10 Laptops of 2022</h4>
+              <p>Our best picks for various needs and budgets.</p>
+            </div>
+          </div>
+          <div class="box col-sm-12 col-lg-4 d-flex">
+            <img
+              class="me-4"
+              src="./assets/images/image-gaming-growth.jpg"
+              alt=""
+            />
+            <div>
+              <h3 class="">03</h3>
+              <h4 class="">The Growth of Gaming</h4>
+              <p>How the pandemic has sparked fresh opportunities.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Feature -->
+
+    <!--  -->
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/mnsa2020">Mohamed Ahmed</a
+      >.
+    </div>
+    <!--  -->
+
+    <!-- Script -->
+    <script src="./assets/js/all.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <!-- Script -->
+  </body>
+</html>
